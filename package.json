@@ -1,0 +1,21 @@
+{
+  "name": "lurker-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "twitch": "^4.0.10",
+    "twitch-chat-client": "^4.0.10",
+    "twitch-js": "^2.0.0-beta.33"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  }
+}
