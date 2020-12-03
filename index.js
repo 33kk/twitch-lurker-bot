@@ -13,7 +13,7 @@ const TwitchClient = require("twitch").default;
 const ChatClient = require("twitch-chat-client").default;
 
 const api = TwitchClient.withCredentials(config.clientId, config.token);
-const chat = ChatClient.forTwitchClient(api, {
+const chat = new ChatClient(api, {
 	requestMembershipEvents: false,
 });
 
